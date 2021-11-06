@@ -1,41 +1,56 @@
 print("Hello welcome to the simple calculator")
 
+"""
+Addition function
+"""
+def addition(x, y): 
+    return x + y
+
+"""
+Substraction function
+"""
+def substraction(x, y):
+    return x - y
+
+"""
+Multiplication function
+"""
+def multiplication(x, y):
+    return x * y
+
+"""
+Division function
+"""
+def division(x,y):
+    return x / y
 
 while True:
     operation = input("Press A for addition, S for substraction, M for multiplication, D for division ").upper()
-    x = int(input("What is the first value? "))
-    y = int(input("What is the second value? "))
-    if operation == 'A':
-        
-        """
-        Addition function
-        """
-        def addition(x, y): 
-            return x + y
 
-        print(addition(x, y))
-        
+    if operation == 'A':
+        x = int(input("What is the first value? "))
+        y = int(input("What is the second value? "))
+        total = int(addition(x, y))
+
+        print(total)
     elif operation == 'S':
-        """
-        Substraction function
-        """
-        def substraction(x, y):
-            return x - y
-        print(substraction(x, y))
+        x = int(input("What is the first value? "))
+        y = int(input("What is the second value? "))
+        total = int(substraction(x, y))
+        
+        print(total)
     elif operation == 'M':
-        """
-        Multiplication function
-        """
-        def multiplication(x, y):
-            return x * y
-        print(multiplication(x, y))
+        x = int(input("What is the first value? "))
+        y = int(input("What is the second value? "))
+        total = int(multiplication(x,y))
+
+        print(total)
     elif operation == 'D':
-        """
-        Division function
-        """
-        def division(x,y):
-            return x / y
-        print(division(x, y))
+        x = int(input("What is the first value? "))
+        y = int(input("What is the second value? "))
+        total = int(division(x,y))
+
+        print(total)
     else:
         print("Invalid input!")
         
@@ -44,3 +59,5 @@ while True:
         break
     else:
         print("Having another go!")
+
+
