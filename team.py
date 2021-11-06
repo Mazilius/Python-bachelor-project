@@ -1,6 +1,7 @@
-names = []
+player_names = []
 
-while len(names) <= 2:
+
+while len(player_names) <= 2:
      question = input("Hello, would you like to add players to the team? \nY/N ")
      if question.isdigit():
         print("No numbers!")
@@ -13,24 +14,27 @@ while len(names) <= 2:
             print("No numbers!")
             continue
 
-        names.append(player_names) 
+        player_names.append(player_names) 
        
      elif question.lower() == "no":
-        print(names)
+        print(player_names)
         break
    
+print("There are {} players on this team!".format(len(player_names)))
 
-print("Player number 1 {}".format(names[0]))
-print("Player number 2 {}".format(names[1]))
-print("Player number 3 {}".format(names[2]))
+player_number = 1
+for player in player_names:
+    print("Player {}: {}".format(player_number, player))
+    player_number += 1
+
 
 goalkeeper = int(input("Who do you want as goalkeeper? "))
 
 if goalkeeper == 1:
-    print("The goalkeeper is {}".format(names[0]))
+    print("The goalkeeper is {}".format(player_names[0]))
 elif goalkeeper == 2:
-    print("The goalkeeper is {}".format(names[1]))
+    print("The goalkeeper is {}".format(player_names[1]))
 elif goalkeeper == 3:
-    print("The goalkeeper is {}".format(names[2]))
+    print("The goalkeeper is {}".format(player_names[2]))
 else:
     print("Invalid input!")
