@@ -37,16 +37,11 @@ from textblob import TextBlob
 ## Usage 
 
 ### Topic mining and text processing - Bachelor project
-<details>
-<summary>Topic mining and text processing - Bachelor project</summary>
-  The following bullet points contains prerequisits in order to use the system. 
+The following bullet points contains prerequisits in order to use the system. 
 * Credentials from Twitter in order to use their data if you wish to gather more 
 * Connect to postgresql database in order to handle and view the data
-</details>
 
-<details>
-<summary>Smaller projects</summary>
-  The following bullet points contains prerequisits in order to use the system. 
+### Smaller projects
+The following bullet points contains prerequisits in order to use the system. 
 * All systems are operation in the terminal
 * The libraries are built in
-</details>
