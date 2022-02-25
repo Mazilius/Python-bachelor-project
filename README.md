@@ -1,3 +1,5 @@
+![Repository logo](/python_projects/python_logo.png)
+
 # Python projects 
 This repository contains projects of mine. 
 
