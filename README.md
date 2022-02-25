@@ -1,4 +1,5 @@
-# Python projects ![name-of-you-image](http://www.pngall.com/wp-content/uploads/2016/05/Python-Logo-PNG-Image.png)
+![name-of-you-image](http://www.pngall.com/wp-content/uploads/2016/05/Python-Logo-PNG-Image.png)
+# Python projects 
 This repository contains projects of mine. 
 
 ## Libraries 
