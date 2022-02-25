@@ -35,3 +35,10 @@ import re #cleaning the words.
 from textblob import TextBlob
 ```
 ## Usage 
+
+<details>
+<summary>Click to toggle contents of `code`</summary>
+```
+CODE!
+```
+</details>
