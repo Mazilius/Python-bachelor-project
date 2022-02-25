@@ -2,8 +2,8 @@
 This repository contains projects of mine. 
 
 ## Libraries 
-<details>
    <summary>Click to expand!</summary>
+
 ```python
 import sys as s
 import math as m
@@ -36,5 +36,4 @@ from collections import Counter
 import re #cleaning the words. 
 from textblob import TextBlob
 ```
-</details>   
 ## Usage 
