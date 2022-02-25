@@ -42,6 +42,7 @@ from textblob import TextBlob
 The following bullet points contains prerequisits in order to use the system. 
 * Credentials from [Twitter](https://developer.twitter.com/) in order to use their API if you wish to gather more data
 * Connect to [postgresql](https://www.postgresql.org/) database in order to handle and view the data
+* The original data is in the zip folder
 
 ### Smaller projects
 * All programs are operational in the terminal
