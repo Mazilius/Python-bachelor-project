@@ -1,2 +1,8 @@
 # Python projects
-This repository contains small projects of mine. 
+This repository contains projects of mine. 
+
+## Libraries 
+```python
+import sys as s
+import math as m
+```
