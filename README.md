@@ -17,7 +17,7 @@ import statistics
 from statistics import mean 
 
 import sqlalchemy 
-from sqlalchemy import create_engine #Creates access to database
+from sqlalchemy import create_engine 
 
 import psycopg2 
 
@@ -31,7 +31,7 @@ import itertools
 import collections 
 from collections import Counter
 
-import re #cleaning the words. 
+import re 
 from textblob import TextBlob
 ```
 ## Usage 
