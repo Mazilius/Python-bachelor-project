@@ -39,7 +39,7 @@ from textblob import TextBlob
 ### Topic mining and text processing - Bachelor project
 The following bullet points contains prerequisits in order to use the system. 
 * Credentials from [Twitter](https://developer.twitter.com/) in order to use their API if you wish to gather more data
-* Connect to postgresql database in order to handle and view the data
+* Connect to [postgresql](https://www.postgresql.org/) database in order to handle and view the data
 
 ### Smaller projects
 * All systems are operation in the terminal
