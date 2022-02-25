@@ -1,4 +1,6 @@
+<p align="center">
 ![external-content duckduckgo](https://user-images.githubusercontent.com/46424521/155636980-8d15ffa6-648d-46bf-afa2-92ed940f3609.png)
+</p>
 # Python projects 
 This repository contains projects of mine. 
 
