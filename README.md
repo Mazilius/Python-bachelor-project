@@ -1,7 +1,6 @@
 # Python projects
 This repository contains projects of mine. 
-[name-of-you-image](http://www.pngall.com/wp-content/uploads/2016/05/Python-Logo-PNG-Image.png)
-
+![name-of-you-image](http://www.pngall.com/wp-content/uploads/2016/05/Python-Logo-PNG-Image.png)
 ## Libraries 
 ```python
 import sys as s
