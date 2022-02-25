@@ -6,3 +6,4 @@ This repository contains projects of mine.
 import sys as s
 import math as m
 ```
+## Usage 
