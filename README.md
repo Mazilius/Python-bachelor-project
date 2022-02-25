@@ -2,7 +2,7 @@
 This repository contains projects of mine. 
 
 ## Libraries 
-<details>
+
    <summary>Click to expand!</summary>
 
       ```python
@@ -37,6 +37,12 @@ This repository contains projects of mine.
       import re #cleaning the words. 
       from textblob import TextBlob
       ```
-   </details
+
+
+<summary>Click to toggle contents of `code`</summary>
+```
+CODE!
+```
+</details>
    
    ## Usage 
