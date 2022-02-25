@@ -37,8 +37,11 @@ from textblob import TextBlob
 ## Usage 
 
 <details>
-<summary>Click to toggle contents of `code`</summary>
-```
-CODE!
-```
+<summary>Topic mining and text processing - Bachelor project</summary>
+
+</details>
+
+<details>
+<summary>Smaller projects</summary>
+
 </details>
