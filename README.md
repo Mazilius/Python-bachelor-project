@@ -42,6 +42,5 @@ The following bullet points contains prerequisits in order to use the system.
 * Connect to postgresql database in order to handle and view the data
 
 ### Smaller projects
-The following bullet points contains prerequisits in order to use the system. 
 * All systems are operation in the terminal
 * The libraries are built in
