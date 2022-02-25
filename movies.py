@@ -11,7 +11,7 @@ while True:
         age = int(input("What is your age? "))
     except ValueError:
         print("Value is not valid!")
-    else:  # If everything is valid with the value then the while loop will run
+    else: 
         if age <= 13:
             print(f"You are not old enough! You have {attempt} attempts left")
             attempt -= 1
@@ -44,7 +44,7 @@ TICKET_PRICE = 10
 TICKET_AMOUNT = 5
 SERVICE_CHARGE = 3
 
-#Create a function here for calculating TICKET_PRICE * NUMBER OF TICKETS
+
 def calculator(tickets):
     return tickets * TICKET_PRICE + SERVICE_CHARGE
 
@@ -62,18 +62,11 @@ while TICKET_AMOUNT >= 1:
         TICKET_AMOUNT -= number_of_tickets
         break
 
-#TODO: ask the user how many they are IF they have bought more than 1 ticket.
-
 def split_price():
     return m.ceil(total_due / number_of_tickets)
 
 while number_of_tickets >= 2:
     print("We see that you have brought friends so the tickets will be divided")
-    equal_due = split_price()
-    print(equal_due)
+    total_due = split_price()
+    print(f"Each person has to pay ${total_due}")
     break
-
-
-
-#TODO: List which movies they can watch and pick one of them.
-print("These are the movies you can watch!")
