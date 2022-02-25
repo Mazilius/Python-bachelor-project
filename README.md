@@ -1,6 +1,6 @@
-![name-of-you-image](http://www.pngall.com/wp-content/uploads/2016/05/Python-Logo-PNG-Image.png)
 # Python projects 
-This repository contains projects of mine. 
+This repository contains projects of mine. ![external-content duckduckgo](https://user-images.githubusercontent.com/46424521/155636980-8d15ffa6-648d-46bf-afa2-92ed940f3609.png)
+
 
 ## Libraries 
 ```python
