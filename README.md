@@ -36,6 +36,7 @@ from textblob import TextBlob
 ```
 ## Usage 
 
+# Topic mining and text processing - Bachelor project
 <details>
 <summary>Topic mining and text processing - Bachelor project</summary>
   The following bullet points contains prerequisits in order to use the system. 
