@@ -1,6 +1,6 @@
 # Python projects 
 This repository contains projects of mine. 
-
+![GitHub last commit](https://img.shields.io/github/last-commit/Mazilius/Python-projects)
 
 ## Libraries 
 ```python
