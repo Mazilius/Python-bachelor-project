@@ -42,5 +42,5 @@ The following bullet points contains prerequisits in order to use the system.
 * Connect to [postgresql](https://www.postgresql.org/) database in order to handle and view the data
 
 ### Smaller projects
-* All systems are operation in the terminal
+* All programs are operational in the terminal
 * The libraries are built in
