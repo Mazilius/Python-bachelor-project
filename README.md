@@ -1,5 +1,3 @@
-![Repository logo](/python_projects/https://github.com/Mazilius/python_projects/blob/main/python_logo.png)
-
 # Python projects 
 This repository contains projects of mine. 
 
