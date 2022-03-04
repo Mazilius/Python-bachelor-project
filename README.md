@@ -47,3 +47,8 @@ The following bullet points contains prerequisits in order to use the system.
 ### Smaller projects
 * All programs are operational in the terminal
 * The libraries are built in
+
+### Current project: movies.py
+* Adding more functionalities 
+* Adding UI
+* Less D.R.Y
