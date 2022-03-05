@@ -2,7 +2,33 @@ import sys as s
 import math as m
 
 #-------------------------------------------------------------------------------------#
+print(""" 
+Welcome to python movies!
+There are different age criterias you have to meet in order to use our services
+    - You must at least be the age of 13 in order to see PG 12
+    - People between the age of 14 and 18 can are allowed to watch R15 movies
+    - People aged 18 and above will be allowed to watch every available movie
+Ticket prices are all the same for whatever age group you are in with a service charge include
+""")
+
 attempt = 3
+
+def welcome():
+    while True:
+        username = input("What is your name? ").capitalize()
+        if username.isdigit():
+            print("No numbers")
+        elif len(username) >= 14:
+            print("Name is too long!")
+        elif len(username) <= 3:
+            print("Name is too short!")
+        else:
+            print(f"Welcome to Python movies, {username}. You will be proceeded to the ticket venue now")
+            break
+            
+
+    
+
 """""
 This while loop confirms if the user is legal to watch movies and what movies they can see
 """""
@@ -11,7 +37,7 @@ while True:
         age = int(input("What is your age? "))
     except ValueError:
         print("Value is not valid!")
-    else: 
+    else:  # If everything is valid with the value then the while loop will run
         if age <= 13:
             print(f"You are not old enough! You have {attempt} attempts left")
             attempt -= 1
@@ -19,22 +45,14 @@ while True:
                 s.exit("Too many invalid tries!")
         elif age >= 13 and age <= 18:
             print("Welcome to the movies!")
-
-            name = input("What is your name? ").capitalize()
-            if name.isdigit():
-                print("No numbers")
-                continue
-            else:
-                print(f"Welcome to the python movies, {name}")
-                break
-        else:
-            print("You can see the PG 18 movies alone!")
-            name = input("What is your name? ").capitalize()
-            if name.isdigit():
-                print("No numbers")
-                continue
-            print(f"Welcome to the python movies, {name}")
+            print("You are allowed to watch R15 movies!")
+            welcome()
             break
+        else:
+            print("You can watch every available movie!")
+            welcome()
+            break
+         
 
 
 """""
@@ -44,7 +62,7 @@ TICKET_PRICE = 10
 TICKET_AMOUNT = 5
 SERVICE_CHARGE = 3
 
-
+#Create a function here for calculating TICKET_PRICE * NUMBER OF TICKETS
 def calculator(tickets):
     return tickets * TICKET_PRICE + SERVICE_CHARGE
 
@@ -62,6 +80,8 @@ while TICKET_AMOUNT >= 1:
         TICKET_AMOUNT -= number_of_tickets
         break
 
+#TODO: ask the user how many they are IF they have bought more than 1 ticket.
+
 def split_price():
     return m.ceil(total_due / number_of_tickets)
 
@@ -70,3 +90,5 @@ while number_of_tickets >= 2:
     total_due = split_price()
     print(f"Each person has to pay ${total_due}")
     break
+
+#TODO: Add a dictoronairy here with different movies, age restriction and how many tickets left
