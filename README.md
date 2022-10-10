@@ -1,5 +1,5 @@
 # Python projects 
-This repository contains projects of mine. 
+This repository contains my bachelor thesis. 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Mazilius/Python-projects)
 
